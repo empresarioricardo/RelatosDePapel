@@ -1,0 +1,53 @@
+.container {
+  margin-top: 20px;
+  display: flex;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+.container_image {
+  width: 440px;
+  margin-right: 10px;
+  position: relative;
+}
+
+.image {
+  width: 420px;
+}
+
+.container_info {
+  display: flex;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  width: 100%;
+  text-align: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.texto_tachado {
+  text-decoration: line-through;
+  color: #ccc;
+}
+
+.book_offer {
+  background-color: orange;
+  color: white;
+  font-weight: bold;
+  line-height: 28px;
+  border-radius: 0 20px 20px 0px;
+  top: 40px;
+  left: 0px;
+  height: 30px;
+  width: 50px;
+  position: absolute;
+  border: 1px solid orange;
+  z-index: 5;
+}
+
+.shopCart_button_icon {
+  position: relative;
+  margin-right: 20px;
+  font-size: 40px;
+  color: gray;
+}

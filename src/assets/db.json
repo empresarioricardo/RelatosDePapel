@@ -1,0 +1,194 @@
+import algebra-de-baldor from "./books/algebra-de-baldor.jpg";
+import atlantis from "./books/atlantis.jpg";
+import cada-historia-cuenta from "./books/cada-historia-cuenta.jpg";
+
+export const products = [
+  {
+	"id" : 1,
+	"title" : "Algebra de Baldor",
+	"description" : "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet perspiciatis aspernatur quaerat tempore esse quidem natus quia! Labore quaerat, ipsam dolore aliquid molestias doloremque error praesentium neque voluptate, quidem provident."
+	"author" : "Aurelio Baldor"
+	"gender" : "Educación",
+	"images" : [algebra-de-baldor],
+	"language" : "Español",
+	"price" : "100",
+	"offer" : true,
+	"priceOffer" : 70, 
+	"valueOffer" : 30,
+	"type" : "Físico",
+	"pages" : 576,
+	"publicationDate" : 1941
+  },{
+	"id" : 2,
+	"title" : "Atlantis",
+	"description" : "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet perspiciatis aspernatur quaerat tempore esse quidem natus quia! Labore quaerat, ipsam dolore aliquid molestias doloremque error praesentium neque voluptate, quidem provident."
+	"author" : "David J. L. Gibbins"
+	"gender" : "Educación",
+	"images" : [atlantis],
+	"language" : "Español",
+	"price" : "100",
+	"offer" : true,
+	"priceOffer" : 70, 
+	"valueOffer" : "30%",
+	"type" : "Físico",
+	"pages" : 576,
+	"publicationDate" : 2005
+  },{
+	"id" : 3,
+	"title" : "Cada Historia Cuenta",
+	"description" : "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet perspiciatis aspernatur quaerat tempore esse quidem natus quia! Labore quaerat, ipsam dolore aliquid molestias doloremque error praesentium neque voluptate, quidem provident."
+	"author" : "",
+	"gender" : "Educación",
+	"subCategory" : "Algebra",
+	"images" : [cada-historia-cuenta],
+	"language" : "Español",
+	"price" : "120",
+	"offer" : true,
+	"priceOffer" : 60, 
+	"valueOffer" : "50%"
+  },{
+	"id" : 1,
+	"title" : "Algebra de Baldor",
+	"description" : "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet perspiciatis aspernatur quaerat tempore esse quidem natus quia! Labore quaerat, ipsam dolore aliquid molestias doloremque error praesentium neque voluptate, quidem provident."
+	"category" : "Educación",
+	"subCategory" : "Algebra",
+	"images" : [algebra-de-baldor],
+	"language" : "Español",
+	"price" : "100",
+	"offer" : false,
+	"priceOffer" : 70, 
+	"valueOffer" : "30%"
+  },{
+	"id" : 1,
+	"title" : "Algebra de Baldor",
+	"description" : "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet perspiciatis aspernatur quaerat tempore esse quidem natus quia! Labore quaerat, ipsam dolore aliquid molestias doloremque error praesentium neque voluptate, quidem provident."
+	"category" : "Educación",
+	"subCategory" : "Algebra",
+	"images" : [algebra-de-baldor],
+	"language" : "Español",
+	"price" : "100",
+	"offer" : false,
+	"priceOffer" : 70, 
+	"valueOffer" : "30%"
+  },{
+	"id" : 1,
+	"title" : "Algebra de Baldor",
+	"description" : "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet perspiciatis aspernatur quaerat tempore esse quidem natus quia! Labore quaerat, ipsam dolore aliquid molestias doloremque error praesentium neque voluptate, quidem provident."
+	"category" : "Educación",
+	"subCategory" : "Algebra",
+	"images" : [algebra-de-baldor],
+	"language" : "Español",
+	"price" : "100",
+	"offer" : false,
+	"priceOffer" : 70, 
+	"valueOffer" : "30%"
+  },{
+	"id" : 1,
+	"title" : "Algebra de Baldor",
+	"description" : "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet perspiciatis aspernatur quaerat tempore esse quidem natus quia! Labore quaerat, ipsam dolore aliquid molestias doloremque error praesentium neque voluptate, quidem provident."
+	"category" : "Educación",
+	"subCategory" : "Algebra",
+	"images" : [algebra-de-baldor],
+	"language" : "Español",
+	"price" : "100",
+	"offer" : false,
+	"priceOffer" : 70, 
+	"valueOffer" : "30%"
+  },{
+	"id" : 1,
+	"title" : "Algebra de Baldor",
+	"description" : "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet perspiciatis aspernatur quaerat tempore esse quidem natus quia! Labore quaerat, ipsam dolore aliquid molestias doloremque error praesentium neque voluptate, quidem provident."
+	"category" : "Educación",
+	"subCategory" : "Algebra",
+	"images" : [algebra-de-baldor],
+	"language" : "Español",
+	"price" : "100",
+	"offer" : false,
+	"priceOffer" : 70, 
+	"valueOffer" : "30%"
+  },{
+	"id" : 1,
+	"title" : "Algebra de Baldor",
+	"description" : "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet perspiciatis aspernatur quaerat tempore esse quidem natus quia! Labore quaerat, ipsam dolore aliquid molestias doloremque error praesentium neque voluptate, quidem provident."
+	"category" : "Educación",
+	"subCategory" : "Algebra",
+	"images" : [algebra-de-baldor],
+	"language" : "Español",
+	"price" : "100",
+	"offer" : false,
+	"priceOffer" : 70, 
+	"valueOffer" : "30%"
+  },{
+	"id" : 1,
+	"title" : "Algebra de Baldor",
+	"description" : "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet perspiciatis aspernatur quaerat tempore esse quidem natus quia! Labore quaerat, ipsam dolore aliquid molestias doloremque error praesentium neque voluptate, quidem provident."
+	"category" : "Educación",
+	"subCategory" : "Algebra",
+	"images" : [algebra-de-baldor],
+	"language" : "Español",
+	"price" : "100",
+	"offer" : false,
+	"priceOffer" : 70, 
+	"valueOffer" : "30%"
+  },{
+	"id" : 1,
+	"title" : "Algebra de Baldor",
+	"description" : "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet perspiciatis aspernatur quaerat tempore esse quidem natus quia! Labore quaerat, ipsam dolore aliquid molestias doloremque error praesentium neque voluptate, quidem provident."
+	"category" : "Educación",
+	"subCategory" : "Algebra",
+	"images" : [algebra-de-baldor],
+	"language" : "Español",
+	"price" : "100",
+	"offer" : false,
+	"priceOffer" : 70, 
+	"valueOffer" : "30%"
+  },{
+	"id" : 1,
+	"title" : "Algebra de Baldor",
+	"description" : "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet perspiciatis aspernatur quaerat tempore esse quidem natus quia! Labore quaerat, ipsam dolore aliquid molestias doloremque error praesentium neque voluptate, quidem provident."
+	"category" : "Educación",
+	"subCategory" : "Algebra",
+	"images" : [algebra-de-baldor],
+	"language" : "Español",
+	"price" : "100",
+	"offer" : false,
+	"priceOffer" : 70, 
+	"valueOffer" : "30%"
+  },{
+	"id" : 1,
+	"title" : "Algebra de Baldor",
+	"description" : "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet perspiciatis aspernatur quaerat tempore esse quidem natus quia! Labore quaerat, ipsam dolore aliquid molestias doloremque error praesentium neque voluptate, quidem provident."
+	"category" : "Educación",
+	"subCategory" : "Algebra",
+	"images" : [algebra-de-baldor],
+	"language" : "Español",
+	"price" : "100",
+	"offer" : false,
+	"priceOffer" : 70, 
+	"valueOffer" : "30%"
+  },{
+	"id" : 1,
+	"title" : "Algebra de Baldor",
+	"description" : "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet perspiciatis aspernatur quaerat tempore esse quidem natus quia! Labore quaerat, ipsam dolore aliquid molestias doloremque error praesentium neque voluptate, quidem provident."
+	"category" : "Educación",
+	"subCategory" : "Algebra",
+	"images" : [algebra-de-baldor],
+	"language" : "Español",
+	"price" : "100",
+	"offer" : false,
+	"priceOffer" : 70, 
+	"valueOffer" : "30%"
+  },{
+	"id" : 1,
+	"title" : "Algebra de Baldor",
+	"description" : "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet perspiciatis aspernatur quaerat tempore esse quidem natus quia! Labore quaerat, ipsam dolore aliquid molestias doloremque error praesentium neque voluptate, quidem provident."
+	"category" : "Educación",
+	"subCategory" : "Algebra",
+	"images" : [algebra-de-baldor],
+	"language" : "Español",
+	"price" : "100",
+	"offer" : false,
+	"priceOffer" : 70, 
+	"valueOffer" : "30%"
+  },
+ ]

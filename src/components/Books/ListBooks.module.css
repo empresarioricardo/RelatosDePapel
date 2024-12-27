@@ -1,0 +1,102 @@
+.listBook {
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  justify-items: center;
+  gap: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  min-height: 200px;
+}
+
+.notFound {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 2rem;
+  color: gray;
+  height: 100%;
+}
+
+.book {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  width: 300px;
+}
+
+.book_link {
+  /* display: block; */
+  text-decoration: none;
+  /* border: 1px solid red; */
+  color: gray;
+  padding-top: 0px;
+}
+
+.book_offer {
+  background-color: orange;
+  color: white;
+  font-weight: bold;
+  line-height: 28px;
+  border-radius: 0 20px 20px 0px;
+  top: 40px;
+  left: 0px;
+  height: 30px;
+  width: 50px;
+  position: absolute;
+  border: 1px solid orange;
+  z-index: 5;
+}
+
+.book_img {
+  cursor: pointer;
+  width: auto;
+  height: 300px;
+}
+
+.book_buttons {
+  display: flex;
+  justify-content: space-around;
+  gap: 5px;
+}
+
+.book_button_add {
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+  color: gray;
+}
+
+.book_button_add_icon {
+  color: orange;
+  font-size: 40px;
+}
+
+.book_button_buy:hover {
+  border: 1px solid orange;
+  background-color: orange;
+  color: white;
+  transition: all 0.3s;
+}
+
+.book_button_buy {
+  width: 220px;
+  height: 40px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  background-color: white;
+  color: gray;
+  font-size: 20px;
+}
+
+.texto_tachado {
+  text-decoration: line-through;
+  color: #ccc;
+}
