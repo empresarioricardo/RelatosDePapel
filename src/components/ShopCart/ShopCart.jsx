@@ -78,14 +78,17 @@ const ShopCart = () => {
                 removeFromCart={removeFromCart}
                 addFromCart={addFromCart}
               />
-              <button
-                className={styles.shopCart_Button_buy}
-                onClick={toggleShow}
+              <Link
+                style={{ textDecoration: "none", color: "white" }}
+                to="/main/checkout"
               >
-                <Link style={{ textDecoration: "none" }} to="/main/checkout">
+                <button
+                  className={styles.shopCart_Button_buy}
+                  onClick={toggleShow}
+                >
                   Comprar
-                </Link>
-              </button>
+                </button>
+              </Link>
             </>
           )}
         </Offcanvas.Body>
