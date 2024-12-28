@@ -1,33 +1,3 @@
 {
-  "version": 2,
-  "routes": [
-    {
-      "src": "/",
-      "dest": "/"
-    },
-    {
-      "src": "/main",
-      "dest": "/"
-    },
-    {
-      "src": "/main/home",
-      "dest": "/"
-    },
-    {
-      "src": "/main/ofertas",
-      "dest": "/"
-    },
-    {
-      "src": "/main/libro/:id",
-      "dest": "/"
-    },
-    {
-      "src": "/main/checkout",
-      "dest": "/"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/"
-    }
-  ]
+  "rewrites": [{ "source": "/(.*)", "destination": "/" }]
 }
