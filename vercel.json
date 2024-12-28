@@ -11,23 +11,23 @@
     },
     {
       "src": "/main/home",
-      "dest": "/index.html"
+      "dest": "/"
     },
     {
       "src": "/main/ofertas",
-      "dest": "/index.html"
+      "dest": "/"
     },
     {
       "src": "/main/libro/:id",
-      "dest": "/index.html"
+      "dest": "/"
     },
     {
       "src": "/main/checkout",
-      "dest": "/index.html"
+      "dest": "/"
     },
     {
       "src": "/(.*)",
-      "dest": "/index.html"
+      "dest": "/"
     }
   ]
 }
