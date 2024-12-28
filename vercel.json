@@ -1,0 +1,32 @@
+{
+  "routes": [
+    {
+      "src": "/",
+      "dest": "/"
+    },
+    {
+      "src": "/main",
+      "dest": "/main"
+    },
+    {
+      "src": "/main/home",
+      "dest": "/main/home"
+    },
+    {
+      "src": "/main/ofertas",
+      "dest": "/main/ofertas"
+    },
+    {
+      "src": "/main/libro/:id",
+      "dest": "/main/libro/:id"
+    },
+    {
+      "src": "/main/checkout",
+      "dest": "/main/checkout"
+    },
+    {
+      "src": "*",
+      "dest": "*"
+    }
+  ]
+}
