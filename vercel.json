@@ -1,36 +1,39 @@
 {
+  "version": 2,
+  "builds": [
+    {
+      "src": "index.html",
+      "use": "@vercel/static"
+    }
+  ],
   "routes": [
     {
       "src": "/",
-      "dest": "/"
+      "dest": "/index.html"
     },
     {
       "src": "/main",
-      "dest": "/"
+      "dest": "/index.html"
     },
     {
       "src": "/main/home",
-      "dest": "/"
+      "dest": "/index.html"
     },
     {
       "src": "/main/ofertas",
-      "dest": "/"
-    },
-    {
-      "src": "/main/mas-leidos",
-      "dest": "/"
+      "dest": "/index.html"
     },
     {
       "src": "/main/libro/:id",
-      "dest": "/"
+      "dest": "/index.html"
     },
     {
       "src": "/main/checkout",
-      "dest": "/"
+      "dest": "/index.html"
     },
     {
-      "src": "*",
-      "dest": "*"
+      "src": "/(.*)",
+      "dest": "/index.html"
     }
   ]
 }
