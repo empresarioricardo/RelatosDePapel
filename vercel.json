@@ -6,27 +6,27 @@
     },
     {
       "src": "/main",
-      "dest": "/main"
+      "dest": "/"
     },
     {
       "src": "/main/home",
-      "dest": "/main/home"
+      "dest": "/"
     },
     {
       "src": "/main/ofertas",
-      "dest": "/main/ofertas"
+      "dest": "/"
     },
     {
       "src": "/main/mas-leidos",
-      "dest": "/main/mas-leidos"
+      "dest": "/"
     },
     {
       "src": "/main/libro/:id",
-      "dest": "/main/libro/:id"
+      "dest": "/"
     },
     {
       "src": "/main/checkout",
-      "dest": "/main/checkout"
+      "dest": "/"
     },
     {
       "src": "*",
