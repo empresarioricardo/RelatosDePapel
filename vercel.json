@@ -24,10 +24,6 @@
     {
       "src": "/main/checkout",
       "dest": "/"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/"
     }
   ]
 }
