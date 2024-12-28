@@ -10,23 +10,24 @@ import { findBooks } from "../../features/books/booksSlice";
 import { useState } from "react";
 import { IoBook } from "react-icons/io5";
 
-const NavLinkActive = ({ to, onClick, children }) => (
-  <NavLink
-    onClick={() => onClick(true)}
-    to={to}
-    className={({ isActive }) =>
-      isActive
-        ? `${styles.navbar_nav_link} ${styles.navbar_nav_link_active}`
-        : `${styles.navbar_nav_link}`
-    }
-  >
-    {children}
-  </NavLink>
-);
+const NavLinkActive = ({ to, onClick, children }) => {
+  return (
+    <NavLink
+      onClick={() => onClick(true)}
+      to={to}
+      className={({ isActive }) =>
+        isActive
+          ? `${styles.navbar_nav_link} ${styles.navbar_nav_link_active}`
+          : `${styles.navbar_nav_link}`
+      }
+    >
+      {children}
+    </NavLink>
+  );
+};
 
 const Header = () => {
   const [search, setSearch] = useState("");
-  const [collapse, setCollapse] = useState(false);
   const dispatch = useDispatch();
   const visible = useSelector((state) => state.search.visible);
 
@@ -71,40 +72,19 @@ const Header = () => {
         <Navbar
           expand="lg"
           className={styles.navbar}
-          collapseOnSelect
           bg="dark"
           data-bs-theme="dark"
         >
           <Navbar.Toggle
             aria-controls="responsive-navbar-nav"
-            className={`${styles.navbar_toggle} ${collapse ? "collapsed" : ""}`}
+            className={styles.navbar_toggle}
           />
-          <Navbar.Collapse
-            id="responsive-navbar-nav"
-            className={`${collapse ? "collapse" : "collapse show"}`}
-          >
+          <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className={styles.navbar_nav}>
-              <NavLinkActive to="/main/home" onClick={setCollapse}>
-                HOME
-              </NavLinkActive>
-            </Nav>
-            {/* <Nav className={styles.navbar_nav}>
-              <NavLinkActive to="/main/mas-populares">
-                MÁS POPULARES
-              </NavLinkActive>
+              <NavLinkActive to="/main/home">HOME</NavLinkActive>
             </Nav>
             <Nav className={styles.navbar_nav}>
-              <NavLinkActive
-                to="/main/mas-leidos"
-                className={styles.navbar_nav_link}
-              >
-                MÁS LEÍDOS
-              </NavLinkActive>
-            </Nav> */}
-            <Nav className={styles.navbar_nav}>
-              <NavLinkActive to="/main/ofertas" onClick={setCollapse}>
-                OFERTAS
-              </NavLinkActive>
+              <NavLinkActive to="/main/ofertas">OFERTAS</NavLinkActive>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
