@@ -17,6 +17,10 @@
       "dest": "/main/ofertas"
     },
     {
+      "src": "/main/mas-leidos",
+      "dest": "/main/mas-leidos"
+    },
+    {
       "src": "/main/libro/:id",
       "dest": "/main/libro/:id"
     },
