@@ -1,11 +1,11 @@
 import { Row } from "react-bootstrap";
 import ListBooks from "../components/Books/ListBooks";
 
-const Ofertas = () => {
+const Offer = () => {
   return (
     <Row>
       <ListBooks filter={true} />
     </Row>
   );
 };
-export default Ofertas;
+export default Offer;
