@@ -10,10 +10,9 @@ import { findBooks } from "../../features/books/booksSlice";
 import { useState } from "react";
 import { IoBook } from "react-icons/io5";
 
-const NavLinkActive = ({ to, onClick, children }) => {
+const NavLinkActive = ({ children, to }) => {
   return (
     <NavLink
-      onClick={() => onClick(true)}
       to={to}
       className={({ isActive }) =>
         isActive

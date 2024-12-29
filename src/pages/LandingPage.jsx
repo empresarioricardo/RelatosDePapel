@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router";
-import useTimer from "../hooks/TimerHooks";
+import useTimer from "../hooks/TimerHook";
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
 

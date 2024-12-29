@@ -60,6 +60,7 @@ export const cartSlice = createSlice({
       }
     },
     resetCart: (state) => {
+      console.log("reset");
       state.cartItems = [];
     },
   },

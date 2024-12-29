@@ -1,11 +1,10 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import Badge from "react-bootstrap/Badge";
 import { BsCart4 } from "react-icons/bs";
 import styles from "./ShopCart.module.css";
 import { useSelector, useDispatch } from "react-redux";
 import { addBook, deleteBook } from "../../features/cart/cartSlice";
-import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import DetailCart from "./DetailCart";
 

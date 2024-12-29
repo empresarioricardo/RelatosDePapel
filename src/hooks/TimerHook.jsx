@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 
+//Controla el tiempo de la página de inicio antes de su redirección
 const useTimer = (time) => {
   const [seconds, setSeconds] = useState(time);
   useEffect(() => {

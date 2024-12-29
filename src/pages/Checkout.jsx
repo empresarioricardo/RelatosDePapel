@@ -5,9 +5,9 @@ import Button from "react-bootstrap/Button";
 import Row from "react-bootstrap/Row";
 
 import { useDispatch, useSelector } from "react-redux";
-import { addBook, deleteBook } from "../features/cart/cartSlice";
-import { resetCart } from "../features/cart/cartSlice";
+import { addBook, deleteBook, resetCart } from "../features/cart/cartSlice";
 import { findBooks } from "../features/books/booksSlice";
+import { setHide } from "../features/search/searchSlice";
 import { Badge, Form } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import DetailCart from "../components/ShopCart/DetailCart";
@@ -18,11 +18,6 @@ const Checkout = () => {
   const [amount, setAmount] = useState(0);
   const navigate = useNavigate();
   const dispatch = useDispatch();
-
-  const handleCheckout = () => {
-    setShow(true);
-    clearCart();
-  };
 
   const removeFromCart = (item) => {
     dispatch(deleteBook(item));
@@ -52,6 +47,8 @@ const Checkout = () => {
     setTotal(total);
     setAmount(cantidad);
   }, [cartItems]);
+
+  dispatch(setHide(false));
 
   return (
     <>

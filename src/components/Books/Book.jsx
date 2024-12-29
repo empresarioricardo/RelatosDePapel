@@ -1,4 +1,5 @@
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
+import { useNavigate } from "react-router";
 import styles from "./ListBooks.module.css";
 import { IoMdAddCircleOutline } from "react-icons/io";
 import { useDispatch } from "react-redux";
@@ -8,7 +9,6 @@ const Book = ({ book }) => {
   const navigate = useNavigate();
 
   const handleOnClick = () => {
-    console.log(book);
     dispatch(addBook(book));
   };
 

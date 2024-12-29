@@ -1,13 +1,7 @@
 import { Table } from "react-bootstrap";
 import CartItem from "./CartItem";
 
-const DetailCart = ({
-  cartItems,
-  total,
-  cantidad,
-  removeFromCart,
-  addFromCart,
-}) => {
+const DetailCart = ({ cartItems, total, removeFromCart, addFromCart }) => {
   return (
     <>
       <Table responsive>
